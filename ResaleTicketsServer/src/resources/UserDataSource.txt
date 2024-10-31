@@ -1,0 +1,2 @@
+sarel@gmail.com,123456,Sarel Baruch,0541111111,1807880522,55.0,Hapoel - Haifa,Sports,2024-06-12,7,3,1,Football game,sarel@gmail.com,1607134207,165.0,Sahar Hason Show,StandUp,2027-07-18,5,2,3,,sarel@gmail.com
+ziv@gmail.com,123,ziv,123
