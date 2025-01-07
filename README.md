@@ -1,29 +1,41 @@
-# Marketplace System for Buyers and Sellers
+# Full-Stack Ticket Management System  
 
-## Project Overview
+## **Overview**
+This project is a comprehensive full-stack ticket management system, combining a Java-based backend with a dynamic JavaFX frontend. The platform enables seamless ticket buying, selling, and user management. It emphasizes modular design, efficient workflows, multi-threading, and rigorous testing to ensure reliability and scalability.
 
-This project implements a marketplace system for buyers and sellers using a client-server architecture. The server handles requests from clients (buyers and sellers), and the clients interact with the server to perform actions such as browsing listings, making purchases, and posting tickets. The system is designed using Object-Oriented Programming (OOP) principles and socket programming for communication between clients and the server. Additionally, a string matching algorithm is used to optimize ticket listings for buyers, improving the system's efficiency. Unit and integration tests are also included to ensure the reliability and functionality of the system.
+## Key Features  
 
-## Features
+### 1. **Client-Server Architecture**  
+- Designed with a client-server model, allowing buyers and sellers to communicate with a central server for data exchange.  
+- Buyers can browse available tickets or search using descriptions, providing flexibility in ticket selection.  
+- Sellers can manage their tickets by adding, updating, or deleting them with real-time feedback.  
 
-- **Client-Server Architecture:**  
-  The system is designed with a client-server model. Clients (buyers and sellers) communicate with the central server to exchange data, such as ticket listings and purchase actions.
+### 2. **User Interface**  
+- Employs a clean and consistent design for ease of navigation.  
+- Interactive forms provide validation messages to enhance accuracy during ticket operations.  
 
-- **Object-Oriented Programming (OOP):**  
-  The system is structured using OOP principles, which helps maintain modular and organized code.
+### 3. **Advanced Ticket Search**  
+- Implements a string matching algorithm to efficiently match buyer requests with available ticket listings.  
+- Enhances search functionality and improves overall system performance.  
 
-- **Socket Programming:**  
-  Socket programming enables communication between clients and the server. The server listens for incoming client connections, while clients connect and interact with the server in real-time.
+### 4. **Multi-Threading**  
+- Supports multi-threading to handle simultaneous user interactions.  
+- Ensures smooth execution of tasks like ticket updates, purchases, and data synchronization in real time.  
 
-- **String Matching Algorithm:**  
-  A string matching algorithm is implemented to efficiently match buyer requests with available ticket listings, improving search functionality and system performance.
+### 5. **Data Storage**  
+- Stores tickets and user data in a text file for long-term reliability and easy access.  
+- Regular updates maintain data consistency, even with multiple users interacting simultaneously.  
 
-- **Unit and Integration Testing:**  
-  The system includes unit and integration tests to verify that individual components and the overall system are functioning correctly.
+### 6. **Socket Programming**  
+- Enables real-time communication between clients and the server using socket programming.  
+- The server listens for incoming client connections, while clients seamlessly interact with the server for operations.  
 
-## Technologies Used
+### 7. **Scalability and Extensibility**  
+- Built with modular components, making it easy to add features or integrate new functionality.  
 
-- **Java**
-- **Socket Programming** (Java Sockets)
-- **Object-Oriented Programming** (OOP)
-- **JUnit** (for testing)
+### 8. **Extensive Testing**  
+- Includes rigorous testing to ensure the system handles edge cases and normal operations without failures.  
+
+## Usage  
+1. **Server**: Start the server application to handle client connections.  
+2. **Client**: Run the client application to perform ticket operations (buying, selling, searching).  
